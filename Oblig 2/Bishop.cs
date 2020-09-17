@@ -12,7 +12,7 @@ namespace Oblig_2
             return Math.Abs(diffRow) == Math.Abs(diffCol);
         }
 
-        public Bishop(string symbol) : base(symbol)
+        public Bishop(string symbol = "LPR") : base(symbol)
         {
         }
     }
